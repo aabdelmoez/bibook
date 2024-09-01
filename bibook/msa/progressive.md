@@ -6,7 +6,7 @@ While pairwise alignments enable comparisons between two sequences, many biologi
 
 ### Exponential Time Complexity
 
-In principle, one can use dynamic programming to form MSAs. We can archive such systems using the same ideas as for the pairwise alignments, but just expanding the dynamic programming matrix into a tensor of the same dimension as the number of sequences.  However, a major drawback is its exponential time complexity.  Aligning $T$ sequences each of length $N$ can result in a time complexity of $O(N^T)$, making it impractical for datasets with more than a few sequences.
+In principle, one can use dynamic programming to form MSAs. We can archive such systems using the same ideas as for the pairwise alignments, by just expanding the dynamic programming matrix into a tensor of the same dimension as the number of sequences.  However, a major drawback is its exponential time complexity.  Aligning $T$ sequences each of length $N$ can result in a time complexity of $O(N^T)$, making it impractical for datasets with more than a few sequences.
 
 ### Iterative Approaches as a Practical Alternative
 
