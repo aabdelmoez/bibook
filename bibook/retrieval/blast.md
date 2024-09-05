@@ -119,7 +119,7 @@ BLAST comes in a couple of different versions, depending on its usage. Here are 
 
 BLAST is using FASTA format as input format for its databases and queries. The FASTA format is a widely adopted standard for representing nucleotide and protein sequences in bioinformatics. Developed in the 1980s for the FASTA sequence alignment software, it has since become a versatile and essential format for storing and sharing sequence data. The FASTA format consists of two key components:
 
-1. **Header Line:** Each sequence begins with a header line, which starts with a greater-than symbol (`>`). The text following this symbol provides a description of the sequence. This description often includes information such as a unique identifier (e.g., accession number), the source organism, and other metadata. For example:  
+2. **Header Line:** Each sequence begins with a header line, which starts with a greater-than symbol (`>`). The text following this symbol provides a description of the sequence. This description often includes information such as a unique identifier (e.g., accession number), the source organism, and other metadata. For example:  
 
 ```none
 >sp|P12345|PROT_HUMAN Human Protein Name [Homo sapiens]`  
